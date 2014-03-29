@@ -1,0 +1,10 @@
+Done
+
++ select a contact
++ update the selected contact
++ remove the selected contact
+
+To do
+
+- confirm a removal
+- sort contacts on email or last name, first name

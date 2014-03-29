@@ -1,0 +1,10 @@
+Done
+
++ add a new contact
++ load and save contacts in a local storage
+
+To do
+
++ select a contact
++ update the selected contact
++ remove the selected contact

@@ -1,0 +1,81 @@
+/* 
+  Initial version created with http://www.csstablegenerator.com/, 
+  then adapted manually
+*/
+
+table caption {
+  font-size: 16px;
+  color: #0d5b83;
+}
+
+table td {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 2px;
+  padding-left: 2px;
+  background: #e0f0ff; 
+  border-bottom: 1px solid #ffffff;
+  color: #669669;
+  border-top: 1px solid transparent;
+}
+
+.entities-table {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  background-color: #f2f8ff;
+  font-size: 14px;
+  width: 800px;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.entities-table th {
+  font-weight: bold;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 2px;
+  padding-left: 2px;
+  background: #9ccdff;
+  border-top: 2px solid #6daded;
+  border-bottom: 1px solid #ffffff;
+  color: #0d5b83;
+}
+
+.entity-table {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  background-color: #f2f8ff;
+  font-size: 14px;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.entity-table th {
+  font-size: 12px;
+  font-weight: bold;
+  width: 100px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 2px;
+  padding-left: 2px;
+  background: #9ccdff;
+  border-top: 1px solid #6daded;
+  border-bottom: 1px solid #ffffff;
+  color: #0d5b83;
+}
+
+.entity-table .field {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 14px;
+  width: 320px;
+  border-style: dotted;
+  border-width: 1px;
+  border-color: #bbbbbb;
+  padding-right: 3px;
+  padding-left: 3px;
+}
+
+.entity-table :required {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #8da3ae;
+}
+

@@ -1,0 +1,8 @@
+Done
+
++ display a table of contacts
+
+To do
+
+- add a new contact
+- load and save contacts in a local storage

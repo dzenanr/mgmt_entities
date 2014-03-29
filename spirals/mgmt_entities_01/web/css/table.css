@@ -1,0 +1,43 @@
+/* 
+  Initial version created with http://www.csstablegenerator.com/, 
+  then adapted manually
+*/
+
+table {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  background-color: #f2f8ff;
+  font-size: 14px;
+  width: 800px;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+table caption {
+  font-size: 16px;
+  color: #0d5b83;
+}
+
+table th {
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 2px;
+  padding-left: 2px;
+  background: #9ccdff;
+  border-top: 4px solid #6daded;
+  border-bottom: 1px solid #ffffff;
+  color: #0d5b83;
+}
+
+table td {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 2px;
+  padding-left: 2px;
+  background: #e0f0ff; 
+  border-bottom: 1px solid #ffffff;
+  color: #669669;
+  border-top: 1px solid transparent;
+}
+
