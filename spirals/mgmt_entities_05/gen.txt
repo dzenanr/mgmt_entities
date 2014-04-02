@@ -1,0 +1,4 @@
+C:\Users\ridjanod.FSA-RIDJANOD-2\dart\apps\mgmt_contacts
+
+--genall C:\Users\ridjanod.FSA-RIDJANOD-2\dart\apps\mgmt_contacts mgmt contacts
+

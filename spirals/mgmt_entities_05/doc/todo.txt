@@ -1,0 +1,18 @@
+Done
+
++ confirm a removal
++ sort, by default, contacts on last name then first name
++ sort contacts on email by clicking on the email header
+
+To do
+
+- use the web component with another concept
+- field validations and masks 
+- add in Model Concepts: 
+  - display length
+  - concept singular and plural labels
+  - property label
+- display field with its length
+- display labels
+- display error messages 
+- support i18n
