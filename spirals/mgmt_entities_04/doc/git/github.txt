@@ -33,7 +33,7 @@ Create a New Repo at GitHub
 Repository Name: mgmt_entities
 Description:
   mgmt_entities project uses dartling for the model.
-  The generic web component is done completely by metaprogramming in dartling.
+  A generic web component is done completely by metaprogramming in dartling.
   The generic web component does not have a single line of specific code.
 
 Next steps:

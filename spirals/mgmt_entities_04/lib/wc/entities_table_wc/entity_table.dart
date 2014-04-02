@@ -81,12 +81,7 @@ class EntityTable {
   setRow(var entity, Attribute attribute) {
     var dRow = findRow(attribute);
     var field = rowField(dRow);
-    var value = entity.getStringFromAttribute(attribute.code);
-    if (value == null) {
-      field.value = '';
-    } else {
-      field.value = entity.getStringFromAttribute(attribute.code);
-    }
+    field.value = entity.getStringFromAttribute(attribute.code);
   }
   
   emptyData() {
@@ -109,15 +104,13 @@ class EntityTable {
     for (Attribute attribute in attributes) {
       var row = findRow(attribute);
       var value = rowField(row).value;
-      if (attribute.required) {
-        if (value != null) {
-          if (attribute.identifier) {
-            if (value.trim() != '') {
-              newEntity.setStringToAttribute(attribute.code, value);
-            }
-          } else {
+      if (attribute.required && value != null) {
+        if (attribute.identifier) {
+          if (attribute.increment == null && value.trim() != '') {
             newEntity.setStringToAttribute(attribute.code, value);
           }
+        } else {
+          newEntity.setStringToAttribute(attribute.code, value);
         }
       } else {
         newEntity.setStringToAttribute(attribute.code, value);
