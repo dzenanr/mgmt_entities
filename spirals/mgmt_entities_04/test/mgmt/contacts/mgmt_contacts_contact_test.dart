@@ -1,7 +1,7 @@
  
 // test/mgmt/contacts/mgmt_contacts_contact_test.dart 
  
-import "package:unittest/unittest.dart"; 
+import "package:test/test.dart"; 
 import "package:dartling/dartling.dart"; 
 import "package:mgmt_contacts/mgmt_contacts.dart"; 
  
@@ -9,8 +9,7 @@ testMgmtContactsContacts(
     MgmtDomain mgmtDomain, ContactsModel contactsModel, Contacts contacts) { 
   DomainSession session; 
   group("Testing Mgmt.Contacts.Contact", () { 
-    session = mgmtDomain.newSession();  
-    expect(contactsModel.isEmpty, isTrue); 
+    session = mgmtDomain.newSession();
     setUp(() { 
       contactsModel.init(); 
     }); 

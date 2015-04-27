@@ -4,9 +4,12 @@ part of mgmt_contacts;
  
 abstract class ContactGen extends ConceptEntity<Contact> { 
  
-  ContactGen(Concept concept) : super.of(concept); 
+  ContactGen(Concept concept) {
+    this.concept = concept;
+  }
  
-  ContactGen.withId(Concept concept, String email) : super.of(concept) { 
+  ContactGen.withId(Concept concept, String email) { 
+    this.concept = concept;
     setAttribute("email", email); 
   } 
  
@@ -36,7 +39,9 @@ abstract class ContactGen extends ConceptEntity<Contact> {
  
 abstract class ContactsGen extends Entities<Contact> { 
  
-  ContactsGen(Concept concept) : super.of(concept); 
+  ContactsGen(Concept concept) {
+    this.concept = concept;
+  }
  
   Contacts newEntities() => new Contacts(concept); 
   Contact newEntity() => new Contact(concept); 
